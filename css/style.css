@@ -2,72 +2,90 @@
 
 :root {
     --font-poppins: "poppins", sans-serif;
-    --nav-a-hover-clr:#4891ff;
+    --nav-a-hover-clr: #4891ff;
     --light-clr: #f4f4f6;
-    --dark-clr:#111;
-    --white-clr:#fff;
-    --font-a:#333;
+    --dark-clr: #111;
+    --white-clr: #fff;
+    --font-a: #333;
 }
 
-*{
+* {
     font-family: var(--font-poppins);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-size: 16px;
     line-height: 1.5;
-    background:var(--white-clr);
+    background: var(--white-clr);
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--font-a);
 }
-ul{
+
+ul {
     list-style: none;
 }
 
-img{
+img {
     max-width: 100%;
 }
+
 /* Navbar */
-.navbar{
+.navbar {
     background: var(--white-clr);
     padding: 20px;
 }
-.navbar .container{
+
+.navbar .container {
     display: flex;
-     justify-content: space-between;
-     align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navbar .main-menu ul{
+.navbar .main-menu ul {
     display: flex;
 }
+
 .navbar ul li a {
     padding: 10px 20px;
     display: block;
     font-weight: 600;
     transition: 0.5s;
 }
-.navbar ul li a:hover{
+
+.navbar ul li a:hover {
     color: var(--nav-a-hover-clr);
 }
+
+.navbar ul li a i {
+    margin-right: 10px;
+}
+
+.navbar ul li:last-child a {
+    margin-left: 10px;
+
+}
+
 /* Utility classes */
-.container{
+.container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 15px;
-} 
-.container-sm{
+}
+
+.container-sm {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
 /* buttons */
-.btn{
+.btn {
     background: var(--light-clr);
     display: inline-block;
     border: 0;
@@ -79,9 +97,23 @@ img{
     color: var(--font-a);
     transition: 0.5s;
 }
-.btn.btn:hover{
+
+.btn:hover {
     opacity: 0.8;
+
 }
-.btn-primary{
-    background: var();
+
+.btn-primary {
+    background: var(--nav-a-hover-clr);
+    color: var(--white-clr);
+}
+
+.btn-dark {
+    background: var(--dark-clr);
+    color: var(--white-clr);
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
 }
