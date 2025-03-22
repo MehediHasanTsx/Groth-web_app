@@ -71,6 +71,27 @@ img {
 
 }
 
+/* Hero */
+.hero {
+    margin-bottom: 50px;
+}
+
+.hero .container {
+    background: url(../images/Images-desktop.png) no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    height: 550px;
+}
+
+.hero .hero-content {
+    width: 70%;
+}
+
+.hero .hero-text {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
 /* Utility classes */
 .container {
     max-width: 1100px;
@@ -116,4 +137,44 @@ img {
 .btn-block {
     display: block;
     width: 100%;
+}
+
+/* test classes */
+.text-xxl {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
+}
+
+.text-xl {
+    font-size: 2.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 40px 0 20px;
+}
+
+.text-lg {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 30px 0 20px;
+}
+
+.text-md {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 10px;
+}
+
+.text-sm {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 5px;
+}
+
+.text-center {
+    text-align: center;
 }
