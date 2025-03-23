@@ -124,6 +124,10 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+.testimonials .card p:nth-child(2){
+    margin-top: 30px;
+    font-weight: bold;
+}
 
 /* Utility classes */
 .container {
