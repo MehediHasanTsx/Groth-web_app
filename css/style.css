@@ -98,14 +98,15 @@ img {
     padding: 10px 0 40px;
 }
 
-.video-preview {
-    margin-bottom: 20px;
-}
 
-.video-content {
+.video .video-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.video .video-preview {
+    margin-bottom: 20px;
 }
 
 /* Testimonials */
@@ -119,7 +120,7 @@ img {
     margin-bottom: 40px;
 }
 
-.testimonials-grid {
+.testimonials .testimonials-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -137,12 +138,38 @@ img {
     border-radius: 10px;
     padding: 20px;
 }
+
 /* pricing */
-.pricing-grid{
+.pricing .pricing-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     margin-top: 50px;
+}
+
+.pricing .pricing-card-subheading {
+    margin-bottom: 30px;
+}
+
+.pricing .pricing-card-price {
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.pricing ul {
+    margin: 30px 0;
+}
+
+.pricing li {
+    margin-bottom: 20px;
+}
+
+.pricing ul li i {
+    margin-right: 10px;
+}
+.pricing .prising-footer{
+    margin: 30px 0;
 }
 
 /* Utility classes */
@@ -169,6 +196,7 @@ img {
     cursor: pointer;
     padding: 13px 20px;
     color: var(--font-a);
+    text-align: center;
     transition: 0.5s;
 }
 
