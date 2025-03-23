@@ -124,9 +124,18 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
-.testimonials .card p:nth-child(2){
+
+.testimonials .card p:nth-child(2) {
     margin-top: 30px;
     font-weight: bold;
+}
+
+/* card */
+.card {
+    background: var(--white-clr);
+    color: var(--video-bg);
+    border-radius: 10px;
+    padding: 20px;
 }
 
 /* Utility classes */
@@ -236,11 +245,4 @@ img {
 .bg-black {
     background: var(--video-bg);
     color: var(--white-clr);
-}
-
-.card {
-    background: var(--white-clr);
-    color: var(--video-bg);
-    border-radius: 10px;
-    padding: 20px;
 }
