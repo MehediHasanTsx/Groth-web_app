@@ -137,6 +137,13 @@ img {
     border-radius: 10px;
     padding: 20px;
 }
+/* pricing */
+.pricing-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
 
 /* Utility classes */
 .container {
