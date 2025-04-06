@@ -2,6 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const faqContainer = document.querySelector('.faq-content');
 
+
     faqContainer.addEventListener('click', (e) => {
         const groupHeader = e.target.closest('.faq-group-header');
 
@@ -29,10 +30,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 otherGroupBody.classList.remove('open');
                 otherIcon.classList.remove('fa-minus');
                 otherIcon.classList.add('fa-plus');
-            }
+            };
         });
     });
 });
+
+
 
 // Mobile menu
 document.addEventListener('DOMContentLoaded', () => {
@@ -42,4 +45,5 @@ document.addEventListener('DOMContentLoaded', () => {
     hamburgerButton.addEventListener('click', () =>
         mobileMenu.classList.toggle('active')
     );
+
 });
